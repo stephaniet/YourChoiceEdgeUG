@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Virtual Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" href="images/icon.png">
+        <link rel="stylesheet" href="themes/myApp.min.css">
+        <link rel="apple-touch-startup-image" href="images/startup.png">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    </head>
+    
+    <body>
+        <!-- HOME PAGE-->
+        <div data-role="page" id="home" name="home">
+            <div data-role="header" data-position="inline">
+                <h1>VIRTUAL SHOP</h1>
+            </div>
+            <div data-role="content" data-theme="a">
+                <ul data-role="listview" data-inset="true" >
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#prodotti">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ABOUT US -->
+        <div data-role="page" id="about" name="about">
+            <div data-role="header" data-position="inline">
+                <a href="#home" data-role="button" data-icon="home" data-iconpos="notext"></a>
+                <h1>About US</h1>
+                <a href="#info" data-rel="dialog" data-transition="pop" data-icon="info" data-iconpos="notext"></a>
+            </div>
+            <div data-role="content">
+                <img src="images/foto.jpg" width="120" style="float:left; margin-right:10px">Ad anim ex duis. Quamquam et illum deserunt nam ita deserunt reprehenderit ex se dolor et quid, dolor appellat occaecat. Ad nisi probant, in tamen graviterque. Commodo noster sunt sed cillum, probant esse aliquip id quis graviterque aliquip aute officia, et quem appellat do sed labore aut tamen, qui et irure pariatur an hic cillum vidisse si mentitum minim multos admodum lorem. Senserit nisi quae ullamco irure o offendit dolore voluptate eiusmod ex te nulla ea fore sed nulla ita ut velit arbitror sed vidisse nulla aliquip iudicem aut enim officia a instituendarum iis summis exercitation occaecat varias vidisse, minim philosophari aliquip elit arbitror. Tempor magna proident cernantur, fabulas e senserit. Voluptate do summis ullamco, senserit legam ipsum admodum labore.</div>
+        </div>
+        <!-- PRODOTTI -->
+        <div data-role="page" id="prodotti" name="prodotti">
+            <div data-role="header" data-position="inline">
+                <a href="#home" data-role="button" data-icon="home" data-iconpos="notext"></a>
+                <h1>Products</h1>
+                <a href="#info" data-role="button" data-icon="info" data-iconpos="notext"></a>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-filter="true" data-filter-placeholder="Cerca il prodotto...">
+                    <li data-role="list-divider">Apple
+                        <span class="ui-li-count">3</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>iMac</h2>
+                        <p>21' e 27' display Retina</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>iPhone</h2>
+                        <p>5S e 5C</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>iPad</h2>
+                        <p>Air e Mini con Display Regina</p>
+                        </a>
+                    </li>
+                    <li data-role="list-divider">Windows
+                        <span class="ui-li-count">2</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>Windows 8.1</h2>
+                            <p>Il nuovo sistema operativo Microsoft</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>Surface</h2>
+                            <p>La tablet made in Microsoft</p>
+                        </a>
+                    </li>
+                    <li data-role="list-divider">Canonical
+                        <span class="ui-li-count">3</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>Ubuntu</h2>
+                        <p>La distro Linux pi&ugrave; diffusa</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>Lubuntu</h2>
+                            <p>La variante di Ubuntu per giochi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <h2>Edubuntu</h2>
+                            <p>La variante Ubuntu per la scuola e l'istruzione </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- CONTATTI -->
+        <div data-role="page" id="contact" name="contact">
+            <div data-role="header" data-position="inline">
+                <a href="#home" data-role="button" data-icon="home" data-iconpos="notext"></a>
+                <h1>Contact</h1>
+                <a href="#info" data-role="button" data-icon="info" data-iconpos="notext"></a>
+            </div>
+            <div data-role="content">
+                <label>Name</label>
+                <input type="text" name="nomeUtente">
+                <label>Surname</label>
+                <input type="text" name="cognomeUtente">
+                <label>Email</label>
+                <input type="email" name="emailUtente">
+                <label>Products</label>
+                <select name="products">
+                    <option>iPhone</option>
+                    <option>iPad</option>
+                    <option>iPod</option>
+                    <option>Surface</option>
+                    <option>Ubuntu</option>
+                </select>
+                <label>Amount</label>
+                <input type="number" step="1" min="0" max="10">
+                <label>Info</label><textarea name="description"></textarea>
+                <input type="button" value="Send">
+            </div>
+        </div>
+        <!-- INFO -->
+        <div data-role="page" id="info" name="info">
+            <div data-role="header">
+                <h1>Info</h1>
+            </div>
+            <div data-role="content">My first web app</div>
+        </div>
+    </body>
+
+</html>

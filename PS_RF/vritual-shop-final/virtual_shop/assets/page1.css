@@ -1,0 +1,364 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#shadow_png {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    margin-top: 1px;
+    margin-left: auto;
+    clear: none;
+    margin-right: auto;
+}
+
+#_a_new_business_way_ {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    word-wrap: break-word;
+    color: rgb(227, 227, 227);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: verdana;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 17;
+    margin-top: 151px;
+    margin-left: -96.122367%;
+    clear: none;
+}
+
+#slider1_jpg {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    margin-top: 260px;
+    margin-left: auto;
+    clear: none;
+    margin-right: auto;
+}
+
+#Virtual_Shop {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    word-wrap: break-word;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    margin-top: 109px;
+    margin-left: -98.061184%;
+    clear: none;
+}
+
+#textspan {
+    float: none;
+    font-size: 2.25em;
+    line-height: normal;
+    color: rgb(185, 185, 185);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: aclonica;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 2.25em;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: aclonica;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 2.25em;
+    line-height: normal;
+    color: rgb(187, 187, 187);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: aclonica;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 2.25em;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: aclonica;
+}
+
+#header_down_jpg {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 8;
+    margin-top: 60px;
+    margin-left: -100%;
+    clear: none;
+}
+
+#header_up_jpg {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    min-width: 0px;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: both;
+    color: rgb(0, 0, 0);
+    overflow: visible;
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    z-index: 18;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    z-index: 21;
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    left: auto;
+    z-index: 22;
+    right: 5%;
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 23.201497%;
+    height: auto;
+    margin-left: 8.53068%;
+    margin-top: 36px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    display: none;
+    visibility: visible;
+}
+
+#image4 {
+    float: left;
+    width: auto;
+    max-width: 23.39681%;
+    height: auto;
+    margin-left: 2.294922%;
+    margin-top: 34.703125px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+#image5 {
+    float: left;
+    width: auto;
+    max-width: 23.331706%;
+    height: auto;
+    margin-left: 2.309163%;
+    margin-top: 34.703125px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+   #image3 {
+        visibility: hidden;
+        display: none;
+   }
+
+   #image4 {
+        visibility: hidden;
+        display: none;
+   }
+
+   #image5 {
+        visibility: hidden;
+        display: none;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   #slider1_jpg {
+        display: none;
+   }
+
+   #shadow_png {
+        display: none;
+   }
+
+   #image3 {
+        float: left;
+        width: auto;
+        max-width: 31.754557%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 34.8125px;
+        clear: both;
+        color: rgb(0, 0, 0);
+        visibility: visible;
+        display: block;
+   }
+
+   #header_up_jpg {
+        width: 100%;
+        height: 60px;
+   }
+
+   #header_down_jpg {
+        width: 100%;
+        height: 150px;
+   }
+
+   #image4 {
+        float: left;
+        width: auto;
+        max-width: 32.080078%;
+        height: auto;
+        margin-left: 2.05485%;
+        margin-top: 34.8125px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        visibility: visible;
+        display: block;
+   }
+
+   #image5 {
+        float: left;
+        width: auto;
+        max-width: 31.988525%;
+        height: auto;
+        margin-left: 2.018229%;
+        margin-top: 34.8125px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        visibility: visible;
+        display: block;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+   #image5 {
+        margin-top: 32.6875px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        height: auto;
+        width: auto;
+        max-width: 65.211589%;
+        margin-right: auto;
+   }
+
+   #header_up_jpg {
+        width: 100%;
+        height: 60px;
+   }
+
+   #header_down_jpg {
+        width: 100%;
+        height: 150px;
+   }
+
+   #image4 {
+        margin-top: 25.0625px;
+        margin-left: auto;
+        clear: none;
+        float: none;
+        height: auto;
+        width: auto;
+        max-width: 65.641276%;
+        margin-right: auto;
+   }
+
+   #image3 {
+        height: auto;
+        width: auto;
+        max-width: 65.869141%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+        margin-top: 246px;
+   }
+
+   #image1 {
+        left: 20%;
+   }
+}
+

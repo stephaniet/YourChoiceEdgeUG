@@ -1,0 +1,147 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+        <title>CSS3 NEWS</title>
+        <style>
+            *{
+                padding:0px;
+                margin:0px;
+            }
+            body{
+                font-family: "trebuchet ms";
+            }
+            li{
+                display:inline-block;
+            }
+            .box{
+                float:left;
+                padding:10px;
+                border:1px solid #000;
+                margin:10px;
+                overflow:auto;
+            }
+            .boxExample{
+                width:100px;
+                height:100px;
+                background-color:#F45;
+                margin:10px 10px 10px 0px;
+                float:left;
+                color:#FFF;
+            }
+            #container{
+                padding:20px;
+            }
+            #borderComplete{
+                border-radius:20px;
+            }
+        
+            #borderLD{
+                border-radius:20px 0px;
+            }
+            #boxShadowComplete{
+                box-shadow:3px 3px 4px #999;
+            }
+            #boxFontFace{
+                text-align:center;
+                padding-top:5px;
+                height:95px;
+                font-family: fondamento, sans-serif;
+            }
+            #boxGradient{
+                background: #cb60b3; /* Old browsers */
+background: -moz-linear-gradient(top,  #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb60b3), color-stop(50%,#c146a1), color-stop(51%,#a80077), color-stop(100%,#db36a4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* IE6-9 */
+
+            }
+            #boxTransform{
+                -webkit-transform:rotate(15deg);
+            }
+            #boxTransition{
+                transition:all 1s;
+            }
+            #boxTransition:hover{
+                background-color:#9CA;
+            }
+            #boxTextShadow{
+                text-shadow:3px 3px 4px #999;
+            }
+            
+        </style>
+        <script src="//use.edgefonts.net/fondamento.js"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+        <h1>Novità in CSS3</h1>
+        <ul>
+            <li>
+                <section class="box">
+                    <h2>Border-radius</h2>
+                    <hr>
+                    <div id="borderComplete" class="boxExample"></div>
+                    <div id="borderLD" class="boxExample"></div>
+                </section>
+            </li>
+            <li>
+                <section class="box">
+                    <h2>Box-shadow</h2>
+                    <hr>
+                    <div id="boxShadowComplete" class="boxExample"></div>
+                    
+                </section>
+            </li>
+            
+            <li>
+                <section class="box">
+                    <h2>Font-face</h2>
+                    <hr>
+                    <div id="boxFontFace" class="boxExample">No more "Times" WOW!</div>
+                    
+                </section>
+            </li>
+            
+            
+             <li>
+                <section class="box">
+                    <h2>Gradient</h2>
+                    <hr>
+                    <div id="boxGradient" class="boxExample"></div>
+                </section>
+            </li>
+             <li>
+                <section class="box">
+                    <h2>Transform</h2>
+                    <hr>
+                    <div id="boxTransform" class="boxExample"></div>
+                </section>
+            </li>
+            
+             <li>
+                <section class="box">
+                    <h2>Transition</h2>
+                    <hr>
+                    <div id="boxTransition" class="boxExample">Rollover me right now! :)</div>
+                </section>
+            </li>
+            
+             <li>
+                <section class="box">
+                    <h2>Text-shadow</h2>
+                    <hr>
+                    <div id="boxTextShadow" class="boxExample">Text with shadow style...</div>
+                </section>
+            </li>
+            
+        </ul>
+        
+</div>
+    </body>
+
+</html>

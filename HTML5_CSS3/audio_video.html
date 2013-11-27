@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+        <title>Semantica</title>
+    </head>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            font-family: verdana;
+        }
+        footer{
+            text-align:center;
+            font-size:10px;
+            background-color:#CCC;
+            padding:5px;
+        }
+        header{
+            height:80px;
+            line-height:80px;
+            margin-left:90px;
+            font-size:2em;
+        }
+        hr{
+            margin:20px 0px;
+        }
+        nav{
+            text-align:center;
+            background-color:#999;
+        }
+        nav li{
+            display:inline-block;
+            padding:20px;
+        }
+        nav li a{
+            color:#FFF;
+            text-decoration:none;
+        }
+        #content{
+            min-height:300px;
+            padding:10px;
+        }
+        #wrapper{
+            max-width:980px;
+            margin:20px auto;
+            border:1px solid #000;
+        }
+    </style>
+    <body>
+        <div id="wrapper">
+            <section id="content">
+                <h1>AUDIO</h1>
+                <audio controls>
+                    <source src="media/audio/if.mp3" type="audio/mpeg">
+                    <source src="media/audio/if.ogg" type="audio/ogg">
+                    Se leggi questo messaggio vuol dire che il tuo browser non supporta il tag Audio
+                </audio>
+                <hr>
+                <h1>VIDEO</h1>
+                <video controls width="400" >
+                    <source src"media/video/intro.mp4">
+                    <source src="media/video/intro.ogv">
+                    <source src="media/video/intro.webm">
+                    Se leggi questo messaggio vuol dire che il tuo browser non supporta il tag Video
+                </video>
+            </section>
+            <footer>Info del footer...</footer>
+        </div>
+    </body>
+</html>

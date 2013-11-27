@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Perspective 3D</title>
+    <style>
+        .stage{ 
+            position:absolute;
+            top:10px;
+            left:10px;
+            right:10px;
+            bottom:10px;
+            color:#FFF;
+            -webkit-perspective: 3000px;
+            -webkit-perspective-origin: 50% 100px;
+            background:#ABC; 
+        }
+        .stage h1{
+            padding:20px;
+            font-size:5em;
+            text-shadow:0px 0px 20px #FFC;
+            -webkit-transform:skewY(-4deg);
+        }
+        
+        .box{
+            height:8em;
+            width:10em;
+            background-color:rgba(200,200,200,0.7);
+            -webkit-transform:translateZ(4em);
+        }
+        
+        .animationArea{
+            position:absolute;
+            width:9em;
+            top:3em;
+            left:50%;
+            margin-left:-4.5em;
+            -webkit-transform-style:preserve-3d;
+            -webkit-transform:rotateY(-40deg);
+        }
+        .box{
+           
+            -webkit-animation:back-end-forth 10s ease-in-out infinite;
+        }
+        
+        @-webkit-keyframes back-end-forth{
+            0%{
+                -webkit-transform: translateZ(-41em) rotateX(0deg);
+            }
+            50%{
+                  -webkit-transform:translateZ(40em) rotateX(360deg);
+            }
+            100%{
+                  -webkit-transform: translateZ(-41em) rotateX(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="stage">
+        <h1>Perspective 3D</h1>
+        <div class="animationArea">
+            <figure class="box">First</figure>
+            <figure class="box">Second</figure>
+        </div>
+    </div>
+
+</body>
+
+</html>
